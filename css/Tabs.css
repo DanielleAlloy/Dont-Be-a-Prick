@@ -1,0 +1,36 @@
+@charset "UTF-8";
+#Tabs1 {
+    font-family: raleway;
+    font-style: normal;
+    font-weight: 100;
+}
+#ui-id-1 {
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(65,155,18,1.00);
+}
+
+#ui-id-2 {
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(54,129,15,1.00);
+}
+
+.ui-tabs .ui-tabs-nav {
+    background-color: rgba(21,77,9,0.25);
+    border: rgba(21,77,9,0.25);
+    background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.10) 0%,rgba(251,251,251,0.00) 45.07%,rgba(0,0,0,0.10) 97.71%);
+    background-image: -moz-linear-gradient(270deg,rgba(0,0,0,0.10) 0%,rgba(251,251,251,0.00) 45.07%,rgba(0,0,0,0.10) 97.71%);
+    background-image: -o-linear-gradient(270deg,rgba(0,0,0,0.10) 0%,rgba(251,251,251,0.00) 45.07%,rgba(0,0,0,0.10) 97.71%);
+    background-image: linear-gradient(180deg,rgba(0,0,0,0.10) 0%,rgba(251,251,251,0.00) 45.07%,rgba(0,0,0,0.10) 97.71%);
+}
+.ui-tabs .ui-tabs-panel {
+    background-color: rgba(232,232,232,1.00);
+    border: rgba(232,232,232,1.00);
+}
+.ui-tabs-nav a:hover {
+    background: rgba(21,77,9,0.25);
+    border-color: rgba(21,77,9,0.25);
+}

@@ -1,0 +1,298 @@
+@charset "UTF-8";
+.content {
+    height: auto;
+    width: auto;
+}
+.nav.nav-pills .nav-item .nav-link.active {
+    background-color: rgba(59,213,40,1.00);
+}
+.nav.nav-pills .nav-item .nav-link:hover {
+    background-color: rgba(21,77,9,0.25);
+}
+
+/* Styles the background color of dropdown */
+.nav-pills > li.show > a:focus,
+.nav-pills > li.show > a:not(:focus) {
+  background-color: rgba(21,77,9,0.25) !important;
+}
+
+
+.dropdown-item:active,
+.nav-link:active {
+  background-color: rgba(21,77,9,0.25) !important;
+}
+
+header img {
+    margin-left: auto;
+    margin-right: auto;
+}
+body {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: raleway;
+    font-style: normal;
+    font-weight: 100;
+    background-color: rgba(255,255,255,1.00);
+}
+html {
+    background-color: rgba(0,0,0,1.00);
+    background-repeat: no-repeat;
+    background-image: -webkit-linear-gradient(270deg,rgba(23,149,4,1.00) 0.52%,rgba(10,68,1,1.00) 34.72%,rgba(1,1,1,1.00) 100%);
+    background-image: -moz-linear-gradient(270deg,rgba(23,149,4,1.00) 0.52%,rgba(10,68,1,1.00) 34.72%,rgba(1,1,1,1.00) 100%);
+    background-image: -o-linear-gradient(270deg,rgba(23,149,4,1.00) 0.52%,rgba(10,68,1,1.00) 34.72%,rgba(1,1,1,1.00) 100%);
+    background-image: linear-gradient(180deg,rgba(23,149,4,1.00) 0.52%,rgba(10,68,1,1.00) 34.72%,rgba(1,1,1,1.00) 100%);
+}
+.logo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+header {
+}
+nav {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+footer {
+    text-align: center;
+    font-size: 0.9em;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+a  {
+    color: rgba(65,155,18,1.00);
+    text-decoration: none;
+}
+a:hover {
+    color: rgba(65,155,18,1.00);
+    font-weight: bold;
+    text-decoration: none;
+}
+main {
+    height: auto;
+    min-height: 500px;
+}
+.nav.nav-pills .nav-item .nav-link {
+    color: rgba(65,155,18,1.00);
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.container-fluid.content {
+    min-width: 500px;
+}
+.center-block {
+}
+.nav-link .dropdown-toggle      {
+	background-color: #DF0D10;
+}
+.dropdown-background {
+	background-color: #EC393C;
+}
+.rounded-circle.img-fluid {
+}
+.galleryHeading {
+    text-align: center;
+    font-weight: 900;
+}
+.clearRight {
+    clear: right;
+}
+h4 {
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.clearLeft {
+    clear: left;
+}
+.waterRight {
+    width: 1000px;
+}
+h2 {
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #419B12;
+}
+.FAQimg {
+    padding-right: 20px;
+}
+figcaption {
+    font-size: 0.75em;
+}
+.fotorama .any {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    font-size: 6em;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    line-height: normal;
+    padding-top: 100px;
+}
+.fotorama .inverse {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    font-size: 72px;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 100px;
+    line-height: normal;
+    color: rgba(0,0,0,1.00);
+}
+.fotorama .any p {
+    font-size: 0.5em;
+    color: rgba(255,255,255,1.00);
+    font-weight: 800;
+    text-shadow: 0 1px 0 rgba(0,0,0,1.00);
+}
+h1 {
+	font-family: aria-text-g2, sans-serif;
+	font-weight: 700;
+	font-style: italic;
+}
+h3 {
+	font-family: aria-text-g2, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+.contact {
+    width: 50%;
+}
+input {
+    width: 100%;
+}
+.noClear {
+    width: auto;
+    margin-right: 10px;
+    clear: none;
+}
+textarea {
+    width: 100%;
+}
+#submit {
+    background-color: rgba(65,155,18,1.00);
+    -webkit-box-shadow: 1px 2px 2px;
+    box-shadow: 1px 2px 2px;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 0.75em;
+    width: 100px;
+    margin-right: 10px;
+    background-image: -webkit-repeating-linear-gradient(270deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    background-image: -moz-repeating-linear-gradient(270deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    background-image: -o-repeating-linear-gradient(270deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    background-image: repeating-linear-gradient(180deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    color: rgba(255,255,255,1.00);
+}
+#reset {
+    background-color: rgba(194,0,0,1.00);
+    -webkit-box-shadow: 1px 2px 2px;
+    box-shadow: 1px 2px 2px;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 4px;
+    border-radius: 5px;
+    font-size: 0.75em;
+    width: 100px;
+    margin-right: 10px;
+    background-image: -webkit-repeating-linear-gradient(270deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    background-image: -moz-repeating-linear-gradient(270deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    background-image: -o-repeating-linear-gradient(270deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    background-image: repeating-linear-gradient(180deg,rgba(0,0,0,0.50) 0%,rgba(0,0,0,0.15) 54.93%,rgba(0,0,0,0.50) 100%);
+    color: rgba(255,255,255,1.00);
+}
+.waterTopPadding {
+    padding-top: 50px;
+}
+
+@media (max-width:375px){
+	.fotorama .any {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    font-size: 1.9em;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    line-height: normal;
+    padding-top: 5px;
+}
+.fotorama .inverse {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    font-size: 1.9em;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 5px;
+    line-height: normal;
+    color: rgba(0,0,0,1.00);
+}
+}
+.fotorama .any p {
+    font-size: 0.56em;
+    color: rgba(255,255,255,1.00);
+    font-weight: 800;
+    text-shadow: 0 1px 0 rgba(0,0,0,1.00);
+}
+	
+@media (max-width:1199.98px) and (min-width:376px){
+	.fotorama .any {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    font-size: 4em;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    line-height: normal;
+    padding-top: 30px;
+}
+.fotorama .inverse {
+    text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+    font-size: 4em;
+    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 30px;
+    line-height: normal;
+    color: rgba(0,0,0,1.00);
+}
+.fotorama .any p {
+    font-size: 0.56em;
+    color: rgba(255,255,255,1.00);
+    font-weight: 800;
+    text-shadow: 0 1px 0 rgba(0,0,0,1.00);
+}
+}
+
+@media (min-width:1200px) and (max-width:1900px){
+	.fotorama .any {
+		padding-top: 30px;	
+}
+}

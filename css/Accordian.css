@@ -1,0 +1,62 @@
+@charset "UTF-8";
+.ui-accordion-header  {
+    background-color: rgba(21,77,9,0.25);
+    margin: 0px;
+	    font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	color: rgba(54,129,15,1.00);
+}
+#FAQAccordion div {
+    font-family: raleway;
+    font-style: normal;
+    font-weight: 100;
+}
+
+.ui-helper-reset.ui-state-default.ui-state-active a {
+	color: rgba(54,129,15,1.00);	
+	font-family: aria-text-g2, sans-serif;
+	font-size: 1.25em;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.ui-accordion-header a {
+  line-height: 42px;
+   font-family: aria-text-g2, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+	font-size: 1.25em;
+  width: 100%;
+  text-indent: 10px;
+	color:rgba(65,155,18,1.00)!important;
+}
+
+.ui-accordion-header a:hover {
+	color:rgba(54,129,15,1.00)!important;
+}
+
+.ui-accordion-header.ui-state-active { 
+	background: rgba(21,77,9,0.25)!important;
+	color:rgba(54,129,15,1.00)!important;
+}
+
+.ui-state-default{
+      background-image: none!important;
+	color: rgba(54,129,15,1.00)!important;	
+
+   }
+.ui-widget-content {
+	  background-image: none!important;
+	background-color: rgba(232,232,232,1.00)!important;
+	padding-bottom: 10px;
+	padding-bottom: 10px;
+}
+.ui-widget-content a  {
+    color: rgba(65,155,18,1.00)!important;
+
+}
+.ui-widget-content a:hover {
+    color: rgba(65,155,18,1.00)!important;
+    font-weight: bold;
+}
